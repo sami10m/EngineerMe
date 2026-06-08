@@ -89,29 +89,29 @@ export default function Home() {
               marginTop: isMobile ? "26px" : "35px",
             }}
           >
-            <a href="/experience" style={{ width: isMobile ? "100%" : "auto" }}>
-              <button
-                style={{
-                  ...primaryButtonStyle,
-                  width: isMobile ? "100%" : "auto",
-                  padding: isMobile ? "16px 22px" : "18px 34px",
-                }}
-              >
-                🚀 {t.button}
-              </button>
-            </a>
-
             <a href="/assessment" style={{ width: isMobile ? "100%" : "auto" }}>
-              <button
-                style={{
-                  ...secondaryButtonStyle,
-                  width: isMobile ? "100%" : "auto",
-                  padding: isMobile ? "16px 22px" : "18px 34px",
-                }}
-              >
-                🧭 {t.assessmentButton}
-              </button>
-            </a>
+  <button
+    style={{
+      ...primaryButtonStyle,
+      width: isMobile ? "100%" : "auto",
+      padding: isMobile ? "16px 22px" : "18px 34px",
+    }}
+  >
+    🧭 {t.assessmentButton}
+  </button>
+</a>
+
+<a href="/experience" style={{ width: isMobile ? "100%" : "auto" }}>
+  <button
+    style={{
+      ...secondaryButtonStyle,
+      width: isMobile ? "100%" : "auto",
+      padding: isMobile ? "16px 22px" : "18px 34px",
+    }}
+  >
+    🚀 {t.button}
+  </button>
+</a>
           </div>
 
           <div

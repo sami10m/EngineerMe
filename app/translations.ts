@@ -7,7 +7,7 @@ export const translations = {
     },
 
     home: {
-        assessmentButton: "Quick Starter Assessment",
+        assessmentButton: "Start Free Assessment",
 
 highlightTitle: "Inside the Engineering Experience",
 highlightText:
@@ -43,7 +43,7 @@ recommendedText:
       title: "Discover Your Engineering Future",
       subtitle:
         "EngineerMe helps students explore engineering fields, experience real university concepts, discover career paths, and understand engineering before choosing their future direction.",
-      button: "Start Engineering Experience",
+      button: "Explore Engineering Experience",
       cardTitle: "Engineering Experience",
       cardText:
         "Explore engineering fields, try simplified university concepts, discover career paths, and understand what engineers actually do. Use the quick assessment as a starting guide.",
@@ -444,7 +444,7 @@ compare: {
 
 
     home: {
-        assessmentButton: "التقييم السريع",
+        assessmentButton: "ابدأ التقييم المجاني",
 
 highlightTitle: "داخل التجربة الهندسية",
 highlightText:
@@ -484,8 +484,7 @@ recommendedText:
       subtitle:
         "تساعد EngineerMe الطلاب على استكشاف مجالات الهندسة، تجربة مفاهيم جامعية مبسطة، التعرف على المسارات المهنية، وفهم عالم الهندسة قبل اختيار التخصص المناسب.",
 
-      button:
-        "ابدأ التجربة الهندسية",
+      button: "استكشف التجربة الهندسية",
 
       cardTitle:
         "التجربة الهندسية",
@@ -919,7 +918,7 @@ compare: {
 
 
     home: {
-        assessmentButton: "אבחון מהיר",
+        assessmentButton: "התחל אבחון חינמי",
 
 highlightTitle: "בתוך חוויית ההנדסה",
 highlightText:
@@ -959,8 +958,7 @@ recommendedText:
       subtitle:
         "EngineerMe עוזרת לתלמידים לחקור תחומי הנדסה, להתנסות במושגים אוניברסיטאיים פשוטים, להכיר מסלולי קריירה ולהבין את עולם ההנדסה לפני בחירת התחום.",
 
-      button:
-        "התחל את חוויית ההנדסה",
+      button: "חקור את חוויית ההנדסה",
 
       cardTitle:
         "חוויית ההנדסה",
