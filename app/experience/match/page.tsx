@@ -55,31 +55,35 @@ export default function EngineeringMatchPage() {
   
 };
   const results = [
-    {
-      icon: "💻",
-      name: t.fields.software,
-      score: scores.software,
-      link: "/experience/software",
-    },
-    {
-      icon: "🖥️",
-      name: t.fields.computer,
-      score: scores.computer,
-      link: "/experience/computer",
-    },
-    {
-      icon: "⚡",
-      name: t.fields.electrical,
-      score: scores.electrical,
-      link: "/experience/electrical",
-    },
-    {
-      icon: "⚙️",
-      name: t.fields.mechanical,
-      score: scores.mechanical,
-      link: "/experience/mechanical",
-    },
-  ].sort((a, b) => b.score - a.score);
+  {
+    field: "software" as Field,
+    icon: "💻",
+    name: t.fields.software,
+    score: scores.software,
+    link: "/experience/software",
+  },
+  {
+    field: "computer" as Field,
+    icon: "🖥️",
+    name: t.fields.computer,
+    score: scores.computer,
+    link: "/experience/computer",
+  },
+  {
+    field: "electrical" as Field,
+    icon: "⚡",
+    name: t.fields.electrical,
+    score: scores.electrical,
+    link: "/experience/electrical",
+  },
+  {
+    field: "mechanical" as Field,
+    icon: "⚙️",
+    name: t.fields.mechanical,
+    score: scores.mechanical,
+    link: "/experience/mechanical",
+  },
+].sort((a, b) => b.score - a.score);
   const bestMatches = results.filter(
   (field) => field.score === results[0].score
 );
@@ -164,7 +168,25 @@ export default function EngineeringMatchPage() {
             <p style={{ color: "#475569", lineHeight: "1.7" }}>
               {t.resultText}
             </p>
+          <div
+  style={{
+    marginTop: "20px",
+    backgroundColor: "white",
+    borderRadius: "14px",
+    padding: "20px",
+    border: "1px solid #dbeafe",
+  }}
+>
+  <h3 style={{ marginTop: 0, color: "#1e3a8a" }}>
+    {t.whyTitle}
+  </h3>
 
+  <ul style={{ lineHeight: "1.9", color: "#475569" }}>
+    {t.why[bestMatches[0].field].map((item) => (
+  <li key={item}>{item}</li>
+))}
+  </ul>
+</div>
            {bestMatches.length === 1 && (
   <a href={results[0].link}>
     <button style={backButtonStyle}>
@@ -189,7 +211,7 @@ export default function EngineeringMatchPage() {
                 </div>
 
                 <strong style={{ color: "#1e3a8a" }}>
-                  {Math.round((field.score / questions.length) * 100)}%
+                 {Math.round((field.score / results[0].score) * 100)}%
                 </strong>
               </div>
             </a>

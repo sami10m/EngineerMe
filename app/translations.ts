@@ -351,7 +351,29 @@ match: {
   exploreBest: "Explore Best Match",
   retake: "Retake Match Quiz",
   back: "Back to Engineering Experience",
-
+  whyTitle: "Why this field matches you",
+why: {
+  software: [
+    "You showed interest in creating digital products.",
+    "You prefer logic, coding, and solving software problems.",
+    "You may enjoy building apps, websites, and platforms.",
+  ],
+  computer: [
+    "You showed interest in how computers work internally.",
+    "You like the connection between software and hardware.",
+    "You may enjoy processors, systems, and smart devices.",
+  ],
+  electrical: [
+    "You showed interest in electronics and physical signals.",
+    "You may enjoy circuits, sensors, electricity, and communication systems.",
+    "This field fits students who like technology at the hardware level.",
+  ],
+  mechanical: [
+    "You showed interest in machines and physical systems.",
+    "You may enjoy motion, forces, materials, and product design.",
+    "This field fits students who like building and improving real objects.",
+  ],
+},
   fields: {
     software: "Software Engineering",
     computer: "Computer Engineering",
@@ -949,7 +971,33 @@ match: {
   exploreBest: "استكشف المجال المناسب",
   retake: "إعادة الاختبار",
   back: "العودة إلى التجربة الهندسية",
+  whyTitle: "لماذا يناسبك هذا المجال؟",
 
+why: {
+  software: [
+    "أظهرت اهتمامًا بإنشاء منتجات وحلول رقمية.",
+    "تميل إلى التفكير المنطقي، البرمجة، وحل المشاكل البرمجية.",
+    "قد تستمتع ببناء التطبيقات، المواقع، والمنصات الرقمية.",
+  ],
+
+  computer: [
+    "أظهرت اهتمامًا بفهم كيفية عمل الحواسيب من الداخل.",
+    "يعجبك الربط بين البرمجيات والعتاد.",
+    "قد تستمتع بالمعالجات، أنظمة الحاسوب، والأجهزة الذكية.",
+  ],
+
+  electrical: [
+    "أظهرت اهتمامًا بالإلكترونيات والأنظمة الكهربائية.",
+    "قد تستمتع بالدوائر، الحساسات، الكهرباء، وأنظمة الاتصال.",
+    "هذا المجال يناسب من يحب فهم التكنولوجيا على مستوى العتاد.",
+  ],
+
+  mechanical: [
+    "أظهرت اهتمامًا بالآلات والأنظمة الفيزيائية.",
+    "قد تستمتع بالحركة، القوى، المواد، وتصميم المنتجات.",
+    "هذا المجال يناسب من يحب بناء وتحسين الأشياء الحقيقية.",
+  ],
+},
   fields: {
     software: "هندسة البرمجيات",
     computer: "هندسة الحاسوب",
@@ -1530,7 +1578,33 @@ match: {
   exploreBest: "חקור את התחום המתאים",
   retake: "בצע את השאלון שוב",
   back: "חזרה לחוויית ההנדסה",
+  whyTitle: "למה התחום הזה מתאים לך?",
 
+why: {
+  software: [
+    "הראית עניין ביצירת מוצרים ופתרונות דיגיטליים.",
+    "אתה נוטה לחשיבה לוגית, כתיבת קוד ופתרון בעיות תוכנה.",
+    "ייתכן שתיהנה מבניית אפליקציות, אתרים ופלטפורמות.",
+  ],
+
+  computer: [
+    "הראית עניין בהבנת הדרך שבה מחשבים עובדים מבפנים.",
+    "אתה אוהב את החיבור בין תוכנה לחומרה.",
+    "ייתכן שתיהנה ממעבדים, מערכות מחשב ומכשירים חכמים.",
+  ],
+
+  electrical: [
+    "הראית עניין באלקטרוניקה ובמערכות חשמליות.",
+    "ייתכן שתיהנה ממעגלים, חיישנים, חשמל ומערכות תקשורת.",
+    "התחום מתאים למי שאוהב להבין טכנולוגיה ברמת החומרה.",
+  ],
+
+  mechanical: [
+    "הראית עניין במכונות ובמערכות פיזיות.",
+    "ייתכן שתיהנה מתנועה, כוחות, חומרים ותכנון מוצרים.",
+    "התחום מתאים למי שאוהב לבנות ולשפר דברים בעולם האמיתי.",
+  ],
+},
   fields: {
     software: "הנדסת תוכנה",
     computer: "הנדסת מחשבים",
