@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Header from "@/app/components/Header";
+
 
 const cairo = Cairo({
   subsets: ["latin", "arabic"],
@@ -31,7 +33,7 @@ export default function RootLayout({
         <Header />
 
         <main style={{ flex: 1 }}>{children}</main>
-
+        <Analytics />
         <footer
           style={{
             backgroundColor: "#e5e7eb",
