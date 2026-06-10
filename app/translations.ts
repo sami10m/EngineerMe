@@ -359,44 +359,167 @@ match: {
     mechanical: "Mechanical Engineering",
   },
 
-  questions: [
-    {
-      question: "Which activity sounds most interesting to you?",
-      options: [
-        { text: "Building apps or websites", field: "software" },
-        { text: "Understanding how computers work inside", field: "computer" },
-        { text: "Working with circuits and electronics", field: "electrical" },
-        { text: "Designing machines or engines", field: "mechanical" },
-      ],
-    },
-    {
-      question: "Which school subject do you enjoy most?",
-      options: [
-        { text: "Programming / Computer Science", field: "software" },
-        { text: "Logic and computer systems", field: "computer" },
-        { text: "Physics and electricity", field: "electrical" },
-        { text: "Physics and motion", field: "mechanical" },
-      ],
-    },
-    {
-      question: "What type of problems do you prefer?",
-      options: [
-        { text: "Debugging software problems", field: "software" },
-        { text: "Understanding hardware-software interaction", field: "computer" },
-        { text: "Analyzing electronic devices", field: "electrical" },
-        { text: "Solving movement and force problems", field: "mechanical" },
-      ],
-    },
-    {
-      question: "Which product would you like to understand deeply?",
-      options: [
-        { text: "Mobile apps", field: "software" },
-        { text: "Computer processors", field: "computer" },
-        { text: "Smartphones and sensors", field: "electrical" },
-        { text: "Cars and machines", field: "mechanical" },
-      ],
-    },
-  ],
+questions: [
+  {
+    question: "What type of work sounds most exciting to you?",
+    options: [
+      { text: "Creating applications and software solutions", field: "software" },
+      { text: "Understanding computers from hardware to software", field: "computer" },
+      { text: "Working with electronics and electrical systems", field: "electrical" },
+      { text: "Designing machines and mechanical systems", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which problem would you enjoy solving?",
+    options: [
+      { text: "Finding and fixing bugs in code", field: "software" },
+      { text: "Making hardware and software communicate", field: "computer" },
+      { text: "Improving electronic circuits", field: "electrical" },
+      { text: "Making machines stronger and more efficient", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which topic interests you the most?",
+    options: [
+      { text: "Algorithms and software design", field: "software" },
+      { text: "Processors and computer architecture", field: "computer" },
+      { text: "Signals, sensors, and electricity", field: "electrical" },
+      { text: "Motion, forces, and materials", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "What would you prefer to build?",
+    options: [
+      { text: "A mobile application", field: "software" },
+      { text: "A smart computer device", field: "computer" },
+      { text: "An electronic system", field: "electrical" },
+      { text: "A mechanical product", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which activity feels more natural?",
+    options: [
+      { text: "Writing logical instructions", field: "software" },
+      { text: "Connecting code with real devices", field: "computer" },
+      { text: "Testing electrical components", field: "electrical" },
+      { text: "Building physical mechanisms", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which technology attracts you most?",
+    options: [
+      { text: "Websites and apps", field: "software" },
+      { text: "Computer chips and embedded systems", field: "computer" },
+      { text: "Communication and electronic devices", field: "electrical" },
+      { text: "Cars, robots, and machines", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "What do you prefer improving?",
+    options: [
+      { text: "Software speed and features", field: "software" },
+      { text: "Computer performance", field: "computer" },
+      { text: "Electronic systems reliability", field: "electrical" },
+      { text: "Mechanical design efficiency", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which university course sounds interesting?",
+    options: [
+      { text: "Programming", field: "software" },
+      { text: "Computer architecture", field: "computer" },
+      { text: "Electronic circuits", field: "electrical" },
+      { text: "Mechanics", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which challenge would you choose?",
+    options: [
+      { text: "Create a new platform", field: "software" },
+      { text: "Design a smart device", field: "computer" },
+      { text: "Develop an electronic system", field: "electrical" },
+      { text: "Design a new machine", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which environment sounds best?",
+    options: [
+      { text: "Software development team", field: "software" },
+      { text: "Hardware and software laboratory", field: "computer" },
+      { text: "Electronics laboratory", field: "electrical" },
+      { text: "Product design workshop", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "You are most curious about:",
+    options: [
+      { text: "How apps are created", field: "software" },
+      { text: "How computers think", field: "computer" },
+      { text: "How devices communicate", field: "electrical" },
+      { text: "How machines move", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "What skill would you like to master?",
+    options: [
+      { text: "Coding", field: "software" },
+      { text: "Computer systems", field: "computer" },
+      { text: "Electronics", field: "electrical" },
+      { text: "Mechanical design", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "What do you notice first in technology?",
+    options: [
+      { text: "The software experience", field: "software" },
+      { text: "The computer behind it", field: "computer" },
+      { text: "The electronics inside", field: "electrical" },
+      { text: "The physical structure", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which project sounds fun?",
+    options: [
+      { text: "Building a website", field: "software" },
+      { text: "Programming a smart device", field: "computer" },
+      { text: "Creating a sensor system", field: "electrical" },
+      { text: "Building a mechanical robot", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "Which thinking style describes you?",
+    options: [
+      { text: "Logical and code-focused", field: "software" },
+      { text: "System-level thinker", field: "computer" },
+      { text: "Technology and signals explorer", field: "electrical" },
+      { text: "Physical design thinker", field: "mechanical" },
+    ],
+  },
+
+  {
+    question: "What future role sounds best?",
+    options: [
+      { text: "Software engineer", field: "software" },
+      { text: "Computer systems engineer", field: "computer" },
+      { text: "Electrical engineer", field: "electrical" },
+      { text: "Mechanical engineer", field: "mechanical" },
+    ],
+  },
+],
 },
 compare: {
   title: "Compare Engineering Fields",
@@ -834,44 +957,153 @@ match: {
     mechanical: "الهندسة الميكانيكية",
   },
 
-  questions: [
-    {
-      question: "أي نشاط يبدو أكثر إثارة لاهتمامك؟",
-      options: [
-        { text: "بناء تطبيقات أو مواقع", field: "software" },
-        { text: "فهم كيف تعمل الحواسيب من الداخل", field: "computer" },
-        { text: "العمل مع الدوائر والإلكترونيات", field: "electrical" },
-        { text: "تصميم آلات أو محركات", field: "mechanical" },
-      ],
-    },
-    {
-      question: "أي مادة مدرسية تستمتع بها أكثر؟",
-      options: [
-        { text: "البرمجة / علوم الحاسوب", field: "software" },
-        { text: "المنطق وأنظمة الحاسوب", field: "computer" },
-        { text: "الفيزياء والكهرباء", field: "electrical" },
-        { text: "الفيزياء والحركة", field: "mechanical" },
-      ],
-    },
-    {
-      question: "أي نوع من المشاكل تفضّل؟",
-      options: [
-        { text: "إصلاح مشاكل البرمجيات", field: "software" },
-        { text: "فهم العلاقة بين العتاد والبرمجيات", field: "computer" },
-        { text: "تحليل الأجهزة الإلكترونية", field: "electrical" },
-        { text: "حل مشاكل الحركة والقوى", field: "mechanical" },
-      ],
-    },
-    {
-      question: "أي منتج ترغب بفهمه بعمق؟",
-      options: [
-        { text: "تطبيقات الهاتف", field: "software" },
-        { text: "معالجات الحاسوب", field: "computer" },
-        { text: "الهواتف الذكية والحساسات", field: "electrical" },
-        { text: "السيارات والآلات", field: "mechanical" },
-      ],
-    },
-  ],
+ questions: [
+  {
+    question: "أي نوع من العمل يبدو أكثر إثارة لاهتمامك؟",
+    options: [
+      { text: "إنشاء تطبيقات وحلول برمجية", field: "software" },
+      { text: "فهم الحاسوب من العتاد إلى البرمجيات", field: "computer" },
+      { text: "العمل مع الإلكترونيات والأنظمة الكهربائية", field: "electrical" },
+      { text: "تصميم آلات وأنظمة ميكانيكية", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي مشكلة تستمتع بحلها أكثر؟",
+    options: [
+      { text: "العثور على أخطاء في الكود وإصلاحها", field: "software" },
+      { text: "جعل العتاد والبرمجيات يتواصلان معًا", field: "computer" },
+      { text: "تحسين الدوائر الإلكترونية", field: "electrical" },
+      { text: "جعل الآلات أقوى وأكثر كفاءة", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي موضوع يثير اهتمامك أكثر؟",
+    options: [
+      { text: "الخوارزميات وتصميم البرمجيات", field: "software" },
+      { text: "المعالجات وبنية الحاسوب", field: "computer" },
+      { text: "الإشارات، الحساسات، والكهرباء", field: "electrical" },
+      { text: "الحركة، القوى، والمواد", field: "mechanical" },
+    ],
+  },
+  {
+    question: "ماذا تفضل أن تبني؟",
+    options: [
+      { text: "تطبيق هاتف", field: "software" },
+      { text: "جهاز حاسوبي ذكي", field: "computer" },
+      { text: "نظام إلكتروني", field: "electrical" },
+      { text: "منتج ميكانيكي", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي نشاط يبدو طبيعيًا أكثر بالنسبة لك؟",
+    options: [
+      { text: "كتابة تعليمات منطقية", field: "software" },
+      { text: "ربط الكود بأجهزة حقيقية", field: "computer" },
+      { text: "اختبار مكونات كهربائية", field: "electrical" },
+      { text: "بناء آليات وأنظمة فيزيائية", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي تقنية تجذبك أكثر؟",
+    options: [
+      { text: "المواقع والتطبيقات", field: "software" },
+      { text: "رقائق الحاسوب والأنظمة المدمجة", field: "computer" },
+      { text: "أجهزة الاتصال والإلكترونيات", field: "electrical" },
+      { text: "السيارات، الروبوتات، والآلات", field: "mechanical" },
+    ],
+  },
+  {
+    question: "ماذا تفضل أن تطوّر أو تحسّن؟",
+    options: [
+      { text: "سرعة البرامج وميزاتها", field: "software" },
+      { text: "أداء الحاسوب", field: "computer" },
+      { text: "اعتمادية الأنظمة الإلكترونية", field: "electrical" },
+      { text: "كفاءة التصميم الميكانيكي", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي مساق جامعي يبدو ممتعًا؟",
+    options: [
+      { text: "البرمجة", field: "software" },
+      { text: "بنية الحاسوب", field: "computer" },
+      { text: "الدوائر الإلكترونية", field: "electrical" },
+      { text: "الميكانيكا", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي تحدٍ تختار؟",
+    options: [
+      { text: "إنشاء منصة جديدة", field: "software" },
+      { text: "تصميم جهاز ذكي", field: "computer" },
+      { text: "تطوير نظام إلكتروني", field: "electrical" },
+      { text: "تصميم آلة جديدة", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي بيئة عمل تبدو أفضل لك؟",
+    options: [
+      { text: "فريق تطوير برمجيات", field: "software" },
+      { text: "مختبر عتاد وبرمجيات", field: "computer" },
+      { text: "مختبر إلكترونيات", field: "electrical" },
+      { text: "ورشة تصميم منتجات", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أنت فضولي أكثر حول:",
+    options: [
+      { text: "كيف يتم إنشاء التطبيقات", field: "software" },
+      { text: "كيف تعمل الحواسيب داخليًا", field: "computer" },
+      { text: "كيف تتواصل الأجهزة", field: "electrical" },
+      { text: "كيف تتحرك الآلات", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي مهارة ترغب بإتقانها؟",
+    options: [
+      { text: "البرمجة", field: "software" },
+      { text: "أنظمة الحاسوب", field: "computer" },
+      { text: "الإلكترونيات", field: "electrical" },
+      { text: "التصميم الميكانيكي", field: "mechanical" },
+    ],
+  },
+  {
+    question: "ما الذي تلاحظه أولًا في التكنولوجيا؟",
+    options: [
+      { text: "تجربة البرنامج أو التطبيق", field: "software" },
+      { text: "الحاسوب أو النظام الذي يعمل خلفه", field: "computer" },
+      { text: "الإلكترونيات الموجودة داخله", field: "electrical" },
+      { text: "الشكل والبنية الفيزيائية", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي مشروع يبدو ممتعًا؟",
+    options: [
+      { text: "بناء موقع إلكتروني", field: "software" },
+      { text: "برمجة جهاز ذكي", field: "computer" },
+      { text: "إنشاء نظام حساسات", field: "electrical" },
+      { text: "بناء روبوت ميكانيكي", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي أسلوب تفكير يصفك أكثر؟",
+    options: [
+      { text: "منطقي ويركز على الكود", field: "software" },
+      { text: "يفكر على مستوى الأنظمة", field: "computer" },
+      { text: "يستكشف التكنولوجيا والإشارات", field: "electrical" },
+      { text: "يفكر بالتصميم الفيزيائي", field: "mechanical" },
+    ],
+  },
+  {
+    question: "أي وظيفة مستقبلية تبدو أفضل لك؟",
+    options: [
+      { text: "مهندس برمجيات", field: "software" },
+      { text: "مهندس أنظمة حاسوب", field: "computer" },
+      { text: "مهندس كهرباء", field: "electrical" },
+      { text: "مهندس ميكانيكا", field: "mechanical" },
+    ],
+  },
+],
+  
 },
 compare: {
   title: "قارن بين مجالات الهندسة",
@@ -1305,45 +1537,152 @@ match: {
     electrical: "הנדסת חשמל",
     mechanical: "הנדסת מכונות",
   },
-
-  questions: [
-    {
-      question: "איזו פעילות נשמעת לך הכי מעניינת?",
-      options: [
-        { text: "בניית אפליקציות או אתרים", field: "software" },
-        { text: "להבין איך מחשבים עובדים מבפנים", field: "computer" },
-        { text: "עבודה עם מעגלים ואלקטרוניקה", field: "electrical" },
-        { text: "תכנון מכונות או מנועים", field: "mechanical" },
-      ],
-    },
-    {
-      question: "איזה מקצוע בבית הספר אתה הכי אוהב?",
-      options: [
-        { text: "תכנות / מדעי המחשב", field: "software" },
-        { text: "לוגיקה ומערכות מחשב", field: "computer" },
-        { text: "פיזיקה וחשמל", field: "electrical" },
-        { text: "פיזיקה ותנועה", field: "mechanical" },
-      ],
-    },
-    {
-      question: "איזה סוג בעיות אתה מעדיף?",
-      options: [
-        { text: "איתור תקלות בתוכנה", field: "software" },
-        { text: "הבנת הקשר בין חומרה לתוכנה", field: "computer" },
-        { text: "ניתוח מכשירים אלקטרוניים", field: "electrical" },
-        { text: "פתרון בעיות תנועה וכוחות", field: "mechanical" },
-      ],
-    },
-    {
-      question: "איזה מוצר היית רוצה להבין לעומק?",
-      options: [
-        { text: "אפליקציות מובייל", field: "software" },
-        { text: "מעבדי מחשב", field: "computer" },
-        { text: "טלפונים חכמים וחיישנים", field: "electrical" },
-        { text: "מכוניות ומכונות", field: "mechanical" },
-      ],
-    },
-  ],
+questions: [
+  {
+    question: "איזה סוג עבודה נשמע לך הכי מעניין?",
+    options: [
+      { text: "יצירת אפליקציות ופתרונות תוכנה", field: "software" },
+      { text: "להבין מחשבים מהחומרה ועד התוכנה", field: "computer" },
+      { text: "עבודה עם אלקטרוניקה ומערכות חשמל", field: "electrical" },
+      { text: "תכנון מכונות ומערכות מכניות", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזו בעיה היית נהנה לפתור?",
+    options: [
+      { text: "למצוא ולתקן באגים בקוד", field: "software" },
+      { text: "לגרום לחומרה ותוכנה לתקשר", field: "computer" },
+      { text: "לשפר מעגלים אלקטרוניים", field: "electrical" },
+      { text: "להפוך מכונות לחזקות ויעילות יותר", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזה נושא מעניין אותך ביותר?",
+    options: [
+      { text: "אלגוריתמים ותכנון תוכנה", field: "software" },
+      { text: "מעבדים וארכיטקטורת מחשבים", field: "computer" },
+      { text: "אותות, חיישנים וחשמל", field: "electrical" },
+      { text: "תנועה, כוחות וחומרים", field: "mechanical" },
+    ],
+  },
+  {
+    question: "מה היית מעדיף לבנות?",
+    options: [
+      { text: "אפליקציית מובייל", field: "software" },
+      { text: "מכשיר מחשוב חכם", field: "computer" },
+      { text: "מערכת אלקטרונית", field: "electrical" },
+      { text: "מוצר מכני", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזו פעילות מרגישה לך טבעית יותר?",
+    options: [
+      { text: "כתיבת הוראות לוגיות", field: "software" },
+      { text: "חיבור קוד למכשירים אמיתיים", field: "computer" },
+      { text: "בדיקת רכיבים חשמליים", field: "electrical" },
+      { text: "בניית מנגנונים פיזיים", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזו טכנולוגיה מושכת אותך ביותר?",
+    options: [
+      { text: "אתרים ואפליקציות", field: "software" },
+      { text: "שבבי מחשב ומערכות משובצות", field: "computer" },
+      { text: "תקשורת ומכשירים אלקטרוניים", field: "electrical" },
+      { text: "מכוניות, רובוטים ומכונות", field: "mechanical" },
+    ],
+  },
+  {
+    question: "מה היית מעדיף לשפר?",
+    options: [
+      { text: "מהירות ותכונות של תוכנה", field: "software" },
+      { text: "ביצועי מחשב", field: "computer" },
+      { text: "אמינות של מערכות אלקטרוניות", field: "electrical" },
+      { text: "יעילות של תכנון מכני", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזה קורס אוניברסיטאי נשמע מעניין?",
+    options: [
+      { text: "תכנות", field: "software" },
+      { text: "ארכיטקטורת מחשבים", field: "computer" },
+      { text: "מעגלים אלקטרוניים", field: "electrical" },
+      { text: "מכניקה", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזה אתגר היית בוחר?",
+    options: [
+      { text: "יצירת פלטפורמה חדשה", field: "software" },
+      { text: "תכנון מכשיר חכם", field: "computer" },
+      { text: "פיתוח מערכת אלקטרונית", field: "electrical" },
+      { text: "תכנון מכונה חדשה", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזו סביבת עבודה נשמעת לך הכי טובה?",
+    options: [
+      { text: "צוות פיתוח תוכנה", field: "software" },
+      { text: "מעבדת חומרה ותוכנה", field: "computer" },
+      { text: "מעבדת אלקטרוניקה", field: "electrical" },
+      { text: "סדנת תכנון מוצרים", field: "mechanical" },
+    ],
+  },
+  {
+    question: "אתה הכי סקרן לגבי:",
+    options: [
+      { text: "איך אפליקציות נוצרות", field: "software" },
+      { text: "איך מחשבים עובדים מבפנים", field: "computer" },
+      { text: "איך מכשירים מתקשרים", field: "electrical" },
+      { text: "איך מכונות זזות", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזו מיומנות היית רוצה לשלוט בה?",
+    options: [
+      { text: "קידוד", field: "software" },
+      { text: "מערכות מחשב", field: "computer" },
+      { text: "אלקטרוניקה", field: "electrical" },
+      { text: "תכנון מכני", field: "mechanical" },
+    ],
+  },
+  {
+    question: "מה אתה שם לב אליו קודם בטכנולוגיה?",
+    options: [
+      { text: "חוויית התוכנה", field: "software" },
+      { text: "המחשב או המערכת שמאחוריה", field: "computer" },
+      { text: "האלקטרוניקה שבתוכה", field: "electrical" },
+      { text: "המבנה הפיזי", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזה פרויקט נשמע כיף?",
+    options: [
+      { text: "בניית אתר", field: "software" },
+      { text: "תכנות מכשיר חכם", field: "computer" },
+      { text: "יצירת מערכת חיישנים", field: "electrical" },
+      { text: "בניית רובוט מכני", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזה סגנון חשיבה מתאר אותך?",
+    options: [
+      { text: "לוגי וממוקד קוד", field: "software" },
+      { text: "חשיבה ברמת מערכות", field: "computer" },
+      { text: "חוקר טכנולוגיה ואותות", field: "electrical" },
+      { text: "חשיבה של תכנון פיזי", field: "mechanical" },
+    ],
+  },
+  {
+    question: "איזה תפקיד עתידי נשמע לך הכי מתאים?",
+    options: [
+      { text: "מהנדס תוכנה", field: "software" },
+      { text: "מהנדס מערכות מחשב", field: "computer" },
+      { text: "מהנדס חשמל", field: "electrical" },
+      { text: "מהנדס מכונות", field: "mechanical" },
+    ],
+  },
+],
 },
 compare: {
   title: "השווה בין תחומי הנדסה",
